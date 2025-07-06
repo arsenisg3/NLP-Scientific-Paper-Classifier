@@ -1,0 +1,15 @@
+# Exclude the dataset folder
+dataset/
+
+# Exclude the results folder
+results/
+
+# Common Python ignores
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Any specific large log files that might be generated outside the 'results' folder
+*.log
